@@ -1,0 +1,11 @@
+name: ctdb
+summary: Layer to build the ctdb subordinate charm
+maintainer: penguinRaider <shailrishabh@gmail.com>
+description: |
+  This layer builds ctdb subordinate charm which makes gluster nfs highly
+  available.
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
